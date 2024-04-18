@@ -1,0 +1,92 @@
+/* Global Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #465e5f; /* Slate Blue */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Content Container Styles */
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+/* Container Styles */
+.container {
+  flex: 1;
+  display: flex;
+  background-color: #e3e7de; /* Slate Blue Grey */
+  border-radius: 5px;
+  overflow: hidden; /* To contain floated elements */
+}
+
+/* Photo Styles */
+.photo {
+  width: 30%; /* Adjust width as needed */
+  padding: 20px;
+}
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Bio Styles */
+.bio {
+  width: 60%; /* Adjust width as needed */
+  padding: 20px;
+  background-color: #d5dfe7; /* Light cyan for contrast */
+  border-left: 1px solid #465e5f;
+}
+
+/* Contact Information Styles */
+.contact-info a {
+  margin-right: 10px; /* Add margin for spacing between icons */
+  color: #263333; /* Set the color of the icons */
+}
+
+.contact-info {
+  text-align: center;
+  padding: 50px 0;
+}
+.contact-info a {
+  color: #465e5f; /* Slate Blue */
+  text-decoration: none;
+  margin: 10px;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+.icon-button {
+  display: inline-block;
+  background-color: #d5dfe7; /* Light cyan for contrast */
+  color: #465e5f; /* Slate Blue */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.icon-button:hover {
+  background-color: #adc1c9; /* Lighter shade on hover */
+}
+.icon-button i {
+  margin-right: 5px;
+}
