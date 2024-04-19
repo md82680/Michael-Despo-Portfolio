@@ -39,6 +39,13 @@ html {
   overflow: hidden; /* To contain floated elements */
 }
 
+/* Container for Projects Page */
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
 /* Photo Styles */
 .photo {
   width: 30%; /* Adjust width as needed */
@@ -89,4 +96,24 @@ html {
 }
 .icon-button i {
   margin-right: 5px;
+}
+.project-tile {
+  width: 300px;
+  background-color: #d5dfe7; /* Light cyan for contrast */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.project-tile h2 {
+  margin-top: 0;
+}
+.project-tile p {
+  margin-bottom: 0;
+}
+.project-tile a {
+  color: #465e5f; /* Slate Blue */
+  text-decoration: none;
+}
+.project-tile a:hover {
+  text-decoration: underline;
 }
